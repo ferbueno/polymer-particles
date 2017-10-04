@@ -1,6 +1,6 @@
 # \<polymer-particles\>
 
-A polymer integration with particles.js!
+A Polymer 2.x integration with particles.js!
 
 Special thanks to Vincent Garreau for his amazing library!
 
