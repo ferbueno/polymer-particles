@@ -16,8 +16,7 @@
       <slot></slot>
     </div>
   </template>
-  <!-- <script src="../../bower_components/particles.js/particles.js" async defer></script>-->
-  <script src="./polymer-particles.js" async defer></script>
+  <script src="/polymer-particles.js" async defer></script>
   <script>
     /**
      * `polymer-particles`
@@ -33,7 +32,7 @@
         return {
           jsonUrl: {
             type: String,
-            value: '../../../default-config.json'
+            value: '/default-config.json'
           },
           pJSDom: {
             type: Array,
@@ -44,9 +43,7 @@
 
       ready(){
         super.ready()
-        this.load('particles-js', `${this.jsonUrl}`, function() {
-          console.log('callback - particles.js config loaded');
-        });
+        this.load('particles-js', `${this.jsonUrl}`)
       }
 
 
