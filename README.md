@@ -1,6 +1,6 @@
 # \<polymer-particles\>
 
-A polymer integration with particles Js!
+A polymer integration with particles.js!
 
 Special thanks to Vincent Garreau for his amazing library!
 
@@ -8,7 +8,7 @@ Checkout his [Github](https://github.com/VincentGarreau/particles.js) here!
 Also, the configurator for the particles is [here!](http://vincentgarreau.com/particles.js/)
 
 ## Description
-`polymer-particles` brings you an easy way to use the already easy particles Js library. Just add your URL to your configuration file and you're ready to go.
+`polymer-particles` brings you an easy way to use the already easy particles.js library. Just add your URL to your configuration file and you're ready to go.
 
 Example:
 
